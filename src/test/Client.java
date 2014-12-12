@@ -5,16 +5,13 @@ import org.apache.thrift.transport.TFramedTransport;
 import org.apache.thrift.transport.TSocket;
 import org.apache.thrift.transport.TTransport;
 import org.junit.Test;
-
 import com.tomdogxu.thrift.server.Hello;
-
 /**
  * Thrift≤‚ ‘øÕªß∂À
  */
 public class Client {
 	@Test
 	public void testThrift() {
-
 		long startTime = System.currentTimeMillis();
 		try {
 			TTransport transport = new TFramedTransport(new TSocket(
