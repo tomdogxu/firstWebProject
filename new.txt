@@ -5,4 +5,8 @@
 ceshi test2
 >>>>>>> 76fd7fd9c25bf60d3a1afc29e4f3ca6aa17fd918
 
+<<<<<<< HEAD
 test marge
+=======
+test fetch
+>>>>>>> 80c9416427a78a3ae49d56d7befe6466a5701ade
