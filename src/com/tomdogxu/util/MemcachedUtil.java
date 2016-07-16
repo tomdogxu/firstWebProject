@@ -10,7 +10,7 @@ public class MemcachedUtil {
     private static MemCachedClient cachedClient = new MemCachedClient();
      
     /**
-     * 初始化连接池
+     * 初始化连接池 
      */
     static {
         //获取连接池的实例
